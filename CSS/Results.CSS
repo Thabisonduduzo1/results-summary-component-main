@@ -6,7 +6,7 @@
 body{background-color: azure; display: flex; justify-content: center; align-items: center; height: 100vh; font-family:Hanken Grotesk ;}
 
 
-.container{ display: Flex ;height:600px; width: 900px; ; background-color: white;}
+.container{ display: Flex ;height:600px; width: 800px; ; background-color: white;}
 
 
 .results{ background-image: linear-gradient( to bottom,hsl(252, 100%, 67%),hsl(241, 81%, 54%) ) ; color: white; border-radius: 15px; display: flex; flex-direction: column; align-items: center; width: 400px;} 
@@ -18,12 +18,34 @@ header{font-size: 30px; padding: 50px; display: flex; justify-content: center;}
 .great{padding: 30px; font-size: 20px;}
 
 p1{ text-wrap: break-down; text-align: center; width: 50px;}
+ 
 
+ul{ display: flex; justify-content: space-between; flex-direction: column; gap:10px  }
+
+.summary{ padding-left: 50px; width: 300px;}
+
+.summary header{display: flex; justify-content: flex-startss;}
+
+.r{background-color: hsl(0, 85%, 92%) ;color: hsl(0, 100%, 67%); list-style-image:url(/assets/images/icon-reaction.svg); height: 50px; display: flex; justify-content: space-between; border-radius: 5px; align-items: center;}
+
+.M{ list-style-image: url(/assets/images/icon-memory.svg);color: hsl(39, 100%, 56%) ;
+     background-color: hsl(39, 75%, 87%); font-weight: bolder;
+    height: 50px; display: flex; justify-content: space-between; border-radius: 5px; align-items: center; }
+
+.V{ list-style-image: url(/assets/images/icon-verbal.svg);color: hsl(166, 100%, 37%) ;
+     background-color: hsl(165, 72%, 90%); font-weight: bolder;
+    height: 50px; display: flex; justify-content: space-between; border-radius: 5px; align-items: center; }
+
+.vi{ list-style-image: url(/assets/images/icon-visual.svg);color: hsl(234, 85%, 45%) ;
+     background-color: hsl(233, 70%, 88%); font-weight: bolder;
+    height: 50px; display: flex; justify-content: space-between; border-radius: 5px; align-items: center;}
+
+
+
+button{ background-color: hsl(224, 41%, 31%); color: white; border-radius:30px; width: 300px;height: 30px; }
 
 
 /*Media design*/
-
-
 @media only screen and (max-width : 375px) { .container{flex-direction: column}
     
 }

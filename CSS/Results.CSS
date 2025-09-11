@@ -46,6 +46,6 @@ button{ background-color: hsl(224, 41%, 31%); color: white; border-radius:30px; 
 
 
 /*Media design*/
-@media only screen and (max-width : 375px) { .container{flex-direction: column}
+@media only screen and (max-width : 600px) { .container{flex-direction: column}
     
 }
